@@ -38,7 +38,7 @@
 //fake binary
 
 
-function fakeBinary(str) {
-    return str.split("").map((x) => x > 5 ? "1" : "0").join("")
-}
-console.log(fakeBinary('124797'))
+// function fakeBinary(str) {
+//     return str.split("").map((x) => x > 5 ? "1" : "0").join("")
+// }
+// console.log(fakeBinary('124797'))
