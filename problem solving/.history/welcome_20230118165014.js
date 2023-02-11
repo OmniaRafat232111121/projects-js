@@ -1,0 +1,1 @@
+function lan_greeting()

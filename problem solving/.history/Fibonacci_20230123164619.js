@@ -1,0 +1,5 @@
+var a = 0;
+var b = 1;
+for (let i = 0; i <= 15; i++){
+    console.log(i);
+}

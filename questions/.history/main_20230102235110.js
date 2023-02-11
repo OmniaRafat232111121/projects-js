@@ -1,0 +1,14 @@
+const questions = document.querySelectorAll('.question');
+questions.forEachfunction (question) {
+    console.log(question);
+})
+// traversing the dom
+// const btns = document.querySelectorAll(".question-btn");
+
+// btns.forEach(function (btn) {
+//   btn.addEventListener("click", function (e) {
+//     const question = e.currentTarget.parentElement.parentElement;
+//    console.log(question)
+//     question.classList.toggle("show-text");
+//   });
+// });

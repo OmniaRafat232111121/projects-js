@@ -1,0 +1,4 @@
+function squareNumber() {
+    
+}
+console.log(squareNumber([1,2,2])) //1+4+4

@@ -1,0 +1,4 @@
+function squareNumber() {
+    
+}
+console.log()

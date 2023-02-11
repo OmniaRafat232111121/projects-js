@@ -1,0 +1,1 @@
+const inputNumber=prompt("please enter number")

@@ -1,0 +1,4 @@
+function counterSheep(array) {
+    
+}
+counterSheep

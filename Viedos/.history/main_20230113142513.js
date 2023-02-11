@@ -1,0 +1,1 @@
+const preloader=document.query

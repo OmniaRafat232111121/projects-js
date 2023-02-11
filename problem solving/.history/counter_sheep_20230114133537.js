@@ -1,0 +1,1 @@
+function counterSheep(array)

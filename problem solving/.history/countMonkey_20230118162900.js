@@ -1,0 +1,3 @@
+function countArarry(number) {
+    
+}

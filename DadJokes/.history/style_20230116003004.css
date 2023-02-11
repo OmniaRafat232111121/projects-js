@@ -1,0 +1,15 @@
+.container{
+    width:90vw;
+    max-width:800px;
+    margin:0 auto;
+    padding-top: 5rem;
+}
+
+.btn{
+    cursor: pointer;
+    color:#fff;
+    background-color: rgb(209, 46, 46);
+    display:inline-block;
+    text-transform: capitalize;
+    box-shadow: var(--shadow-1);
+}
