@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Make UpperCase
 
 function makeUpperCase(str) {
@@ -50,3 +51,57 @@ console.log(removeString('OmniaRfat'))
 
 
 
+=======
+//Make UpperCase
+
+function makeUpperCase(str) {
+    return str.toUpperCase();
+    
+}
+console.log(makeUpperCase('omniarfat'));
+
+
+//Remove firstElement and last element in string
+
+
+function removeString(str) {
+    return str.slice(1, -1);
+}
+console.log(removeString('OmniaRfat'))
+
+
+
+//simple multication
+//even =>8
+//odd =>nine
+
+
+
+
+// function multiplication(number) {
+// return number % 2 == 0 ? number * 8 : number * 9;
+// }
+// console.log(multiplication(6));
+
+
+//Array plus array
+// function plusArray(arr1,arr2) {
+//     return arr1.concat(arr2).reduce((acc, current) => acc + current,0);
+// }
+// console.log(plusArray([1,2,3],[4,6,9]))
+
+
+//sum of array
+
+// function sumArray(array) {
+//     'use strict'; //not allow to define any varible with keyword
+//     return array.length < 0 ?  0 : array.reduce((acc, current) => acc + current, 0);
+     
+    
+    
+// }
+// console.log(sumArray([1,2,3,4,5,-7]))
+
+
+
+>>>>>>> d8386487acc694cdd3ca41752ffa54818bb79d81

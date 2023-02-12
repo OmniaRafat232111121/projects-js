@@ -1,0 +1,1 @@
+var string=prompt('please enter a string')

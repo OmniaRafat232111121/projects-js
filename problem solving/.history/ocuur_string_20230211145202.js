@@ -1,0 +1,6 @@
+var string=prompt('please enter a string');
+var letter=prompt('please enter a letter');
+var string_Length=string.length;
+for(let i=0;i<string_Length;i++){
+  
+}
