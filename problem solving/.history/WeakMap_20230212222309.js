@@ -1,0 +1,1 @@
+let map1=new M
