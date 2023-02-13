@@ -8,6 +8,6 @@
 # Js:-
 - Get all element in Html
 - add Event 
-- put elment value what input
-- put input element on inner Html
-- empty value after insertion paragraph
+- change background with method Math.random()
+- toString "#  HexDecimal "
+- using Slice method OF string end is not included
