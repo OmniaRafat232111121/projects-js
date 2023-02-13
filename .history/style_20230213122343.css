@@ -1,0 +1,29 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #000;
+}
+.container{
+  display: grid;
+  justify-content: center;
+}
+button{
+ padding:15px;
+  background-color: #f6f6f6;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-family: "Montserrat";
+  border: 1px solid gray;
+  margin-bottom: 10px;
+}
+.ground {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
