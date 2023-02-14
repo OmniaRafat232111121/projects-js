@@ -1,0 +1,375 @@
+
+// function addCommasUnderScore(num) {
+//     let result = num.toLocaleString();
+    
+//     result = result.split("")
+//     result[result.length - 4] = "_"; //array to string
+//      result = result.join("");
+//   return result;
+  
+// }
+// console.log(addCommasUnderScore(234553342224));
+
+
+// function removeCharFrom(word, c) {
+//     return word.split("").filter(function (char) {
+//          return char !== c.toLowerCase() && char !== c.toUpperCase();
+//     }).join("")
+        
+    
+// }
+
+
+
+
+// function removeDuplicateWordsFrom(sentence) {
+//   let wordsList = sentence.split(" ");
+//   let result = [];
+//   for (let i = 0; i < wordsList.length; i++) {
+//     if (result.indexOf(wordsList[i]) === -1) {
+//       result.push(wordsList[i]);
+//     }
+//   }
+//   return result.join(" ");
+// }
+
+// console.log(removeDuplicateWordsFrom("Hello Web Web Hello School"));
+
+
+// function removeDuplicateWordsFrom(sentence) {
+//     let result = sentence.split(" ");
+//     console.log(result);
+//     let newSet = new Set(result);
+//     console.log(newSet);
+//     let array = Array.from(newSet);
+//     console.log(array);
+//     let total = array.join(" ");
+//     console.log(total);
+
+// }
+// console.log(removeDuplicateWordsFrom("Hello Web Web Hello School"));
+
+// function longestWord(sentence) {
+//     let longWord = sentence.split("");
+//     longWord.reduce(function (longest, current) {
+//         return current.length > longest.length ? current : longest;
+        
+//     })
+//     return longWord;
+    
+// }
+// console.log(longestWord('Hello Good Morning'));
+
+
+
+
+//number to reversed Array
+// function convert(n) {
+//     //number=>string
+//     let array = n.toString();
+//     console.log(array);
+//     //string=>array
+//     let result = array.split("");
+//     let total = result.map((x) => {
+//         return parseInt(x)
+//     })
+
+    
+//     //console.log(result);
+//     let final = total.reverse();
+//     console.log(final);
+//     //for each element in array to number
+//     //reverse
+    
+// }
+// console.log(convert(6738452));
+
+
+
+// function even_or_odd(number) {
+//     if (number % 2 == 0) {
+//         console.log('Even number')
+//     }
+//     else {
+//         console.log('Odd Number')
+//     }
+// }
+// function even_or_odd(number) {
+//     return number % 2 == 0 ? "Even" : "odd";
+// }
+// console.log(even_or_odd(5));
+
+
+
+//calculate sum of array
+//array[-1,2,3,4,-5] sum of positive[2,3,4]=9
+// function sumOfArray(arr) {
+//     //initailaValue=0
+//     let initalValue = 0;
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] > 0) {
+//             initalValue  += arr[i];
+            
+//         }
+//     }
+//     return initalValue;
+    
+    
+// }
+// console.log(sumOfArray([-1,2,3,4,-5]))
+
+// function sumOfArray(arr) {
+//     return arr.filter((x) => x > 0).
+//         reduce((acc, current) => acc + current
+//         )
+        
+// }
+    
+
+// console.log(sumOfArray([-1,2,3,4,-5]))
+
+
+
+//sum of  without Highest and lowest array
+
+// function sumALl(arr) {
+//     if (arr == null) {
+//         return 0;
+
+//     }
+//     else {
+//         let maxValue = Math.max(...arr);
+//         //console.log(maxValue);
+//         let minValue = Math.min(...arr);
+//         //console.log(minValue);
+//         let filterArray=arr.filter((x) => x !== maxValue && x !== minValue);
+//         let newArray=filterArray.reduce((acc,current)=>acc+current,0)
+//         console.log(newArray);
+
+//     }
+// }
+// console.log(sumALl([1,2,3,4,10,5])) //2+3+4+5 //14
+
+
+
+//max-min of array
+
+// function getArray(array) {
+//     return array.reduce((acc, current) => {
+//         return acc >current ? acc:current
+//     })
+// }
+// console.log(getArray([1,2,89,4,23]))
+// =======
+// function addCommasUnderScore(num) {
+//     let result = num.toLocaleString();
+    
+//     result = result.split("")
+//     result[result.length - 4] = "_"; //array to string
+//      result = result.join("");
+//   return result;
+  
+// }
+// console.log(addCommasUnderScore(234553342224));
+
+
+// function removeCharFrom(word, c) {
+//     return word.split("").filter(function (char) {
+//          return char !== c.toLowerCase() && char !== c.toUpperCase();
+//     }).join("")
+        
+    
+// }
+
+
+
+
+// function removeDuplicateWordsFrom(sentence) {
+//   let wordsList = sentence.split(" ");
+//   let result = [];
+//   for (let i = 0; i < wordsList.length; i++) {
+//     if (result.indexOf(wordsList[i]) === -1) {
+//       result.push(wordsList[i]);
+//     }
+//   }
+//   return result.join(" ");
+// }
+
+// console.log(removeDuplicateWordsFrom("Hello Web Web Hello School"));
+
+
+// function removeDuplicateWordsFrom(sentence) {
+//     let result = sentence.split(" ");
+//     console.log(result);
+//     let newSet = new Set(result);
+//     console.log(newSet);
+//     let array = Array.from(newSet);
+//     console.log(array);
+//     let total = array.join(" ");
+//     console.log(total);
+
+// }
+// console.log(removeDuplicateWordsFrom("Hello Web Web Hello School"));
+
+// function longestWord(sentence) {
+//     let longWord = sentence.split("");
+//     longWord.reduce(function (longest, current) {
+//         return current.length > longest.length ? current : longest;
+        
+//     })
+//     return longWord;
+    
+// }
+// console.log(longestWord('Hello Good Morning'));
+
+
+
+
+//number to reversed Array
+// function convert(n) {
+//     //number=>string
+//     let array = n.toString();
+//     console.log(array);
+//     //string=>array
+//     let result = array.split("");
+//     let total = result.map((x) => {
+//         return parseInt(x)
+//     })
+
+    
+//     //console.log(result);
+//     let final = total.reverse();
+//     console.log(final);
+//     //for each element in array to number
+//     //reverse
+    
+// }
+// console.log(convert(6738452));
+
+
+
+// function even_or_odd(number) {
+//     if (number % 2 == 0) {
+//         console.log('Even number')
+//     }
+//     else {
+//         console.log('Odd Number')
+//     }
+// }
+// function even_or_odd(number) {
+//     return number % 2 == 0 ? "Even" : "odd";
+// }
+// console.log(even_or_odd(5));
+
+
+
+//calculate sum of array
+//array[-1,2,3,4,-5] sum of positive[2,3,4]=9
+// function sumOfArray(arr) {
+//     //initailaValue=0
+//     let initalValue = 0;
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] > 0) {
+//             initalValue  += arr[i];
+            
+//         }
+//     }
+//     return initalValue;
+    
+    
+// }
+// console.log(sumOfArray([-1,2,3,4,-5]))
+
+// function sumOfArray(arr) {
+//     return arr.filter((x) => x > 0).
+//         reduce((acc, current) => acc + current
+//         )
+        
+// }
+    
+
+// console.log(sumOfArray([-1,2,3,4,-5]))
+
+
+
+//sum of  without Highest and lowest array
+
+// function sumALl(arr) {
+//     if (arr == null) {
+//         return 0;
+
+//     }
+//     else {
+//         let maxValue = Math.max(...arr);
+//         //console.log(maxValue);
+//         let minValue = Math.min(...arr);
+//         //console.log(minValue);
+//         let filterArray=arr.filter((x) => x !== maxValue && x !== minValue);
+//         let newArray=filterArray.reduce((acc,current)=>acc+current,0)
+//         console.log(newArray);
+
+//     }
+// }
+// console.log(sumALl([1,2,3,4,10,5])) //2+3+4+5 //14
+
+//if using varible without initialization let,var
+//let,var=>undefined
+//const=>missing error
+// let x;
+// console.log(x)
+
+//const=>error
+//var,let updating
+// const x=4;
+// console.log(x);
+// x=3;
+// console.log(x)
+// let a; //declare
+// let b=3;  //declartion,intialize
+// let a=null; //null
+// let b; //undefined
+//symbol -//let a={} //object //BigInt //string -//Number
+//cant mix symbol 
+
+// let value2 = 900719925124740998n;
+// let result2 = value2 + 1;
+// console.log(result2);
+// let number1='abc'/0;
+// console.log(number1);
+
+// console.log('hello'+'world');
+// let a='javascript';
+// a+='tutrial'; //a=a+'tutrial'
+// console.log(a);
+
+
+// class Car {
+//   constructor(make, model, year) {
+//     this.make = make;
+//     this.model = model;
+//     this.year = year;
+//   }
+// }
+// const auto=new Car('Honda','Accord',2022);
+// console.log(auto instanceof Car);
+// console.log(auto instanceof Object);
+
+// let result = Boolean("0");
+// console.log(result); // true
+
+
+// const array1 = ['a', 'b', 'c'];
+// const array2 = ['d', 'e', 'f'];
+// const array3 = array1.concat(array2);
+
+// console.log(array3);
+
+
+//count number of string
+//abcda =>{a:2,b:1,c:1,d:1}
+
+
+
+
+
+
