@@ -44,31 +44,26 @@ body{
 padding:20px;
 background-color: #e0e0e0;
 }
-.repo-box{
-  background-color: #F44336;
-  padding:10px;
+.repos-container .show-data .repo-box:not(:last-child) {
+  margin-bottom: 5px;
+}
+.repos-container .show-data .repo-box a,
+.repos-container .show-data .repo-box span {
+  float:right;
+  margin-left: 4px;
+  border-radius: 4px;
+  color: #FFF;
+  font-size: 12px;
+  width: 90px;
   text-align: center;
-  width:80%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-
-  margin:0 auto;
-  border-radius: 10px;
-  margin-top: 10px;
+  padding: 4px;
 }
-
-.repo-box a {
+.repos-container .show-data .repo-box a {
   text-decoration: none;
-  background-color:#999595; 
-  color:#fff;
-  padding:10px;
-
-  border-radius: 10px;
+  background-color: #fff;
+  color:#F44336;
 }
- .repo-box span {
-  
-  border-radius: 10px;
-  background-color: #999595;
-  padding:10px;
+.repos-container .show-data .repo-box span {
+  background-color:  #fff;
+  color:#F44336;
 }
