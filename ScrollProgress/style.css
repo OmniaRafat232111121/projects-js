@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  background-color: rgb(231, 187, 187);
+  height:5000px;
+}
+.scroller{
+  position: fixed;
+  top:0;
+  left:0;
+  z-index:1000;
+  width:0px;
+  height:5px;
+  background-color:brown;
+}
