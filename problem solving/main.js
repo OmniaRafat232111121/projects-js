@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // function addCommasUnderScore(num) {
 //     let result = num.toLocaleString();
     
@@ -154,13 +154,13 @@
 
 //max-min of array
 
-function getArray(array) {
-    return array.reduce((acc, current) => {
-        return acc >current ? acc:current
-    })
-}
-console.log(getArray([1,2,89,4,23]))
-=======
+// function getArray(array) {
+//     return array.reduce((acc, current) => {
+//         return acc >current ? acc:current
+//     })
+// }
+// console.log(getArray([1,2,89,4,23]))
+// =======
 // function addCommasUnderScore(num) {
 //     let result = num.toLocaleString();
     
@@ -311,4 +311,65 @@ console.log(getArray([1,2,89,4,23]))
 //     }
 // }
 // console.log(sumALl([1,2,3,4,10,5])) //2+3+4+5 //14
->>>>>>> d8386487acc694cdd3ca41752ffa54818bb79d81
+
+//if using varible without initialization let,var
+//let,var=>undefined
+//const=>missing error
+// let x;
+// console.log(x)
+
+//const=>error
+//var,let updating
+// const x=4;
+// console.log(x);
+// x=3;
+// console.log(x)
+// let a; //declare
+// let b=3;  //declartion,intialize
+// let a=null; //null
+// let b; //undefined
+//symbol -//let a={} //object //BigInt //string -//Number
+//cant mix symbol 
+
+// let value2 = 900719925124740998n;
+// let result2 = value2 + 1;
+// console.log(result2);
+// let number1='abc'/0;
+// console.log(number1);
+
+// console.log('hello'+'world');
+// let a='javascript';
+// a+='tutrial'; //a=a+'tutrial'
+// console.log(a);
+
+
+// class Car {
+//   constructor(make, model, year) {
+//     this.make = make;
+//     this.model = model;
+//     this.year = year;
+//   }
+// }
+// const auto=new Car('Honda','Accord',2022);
+// console.log(auto instanceof Car);
+// console.log(auto instanceof Object);
+
+// let result = Boolean("0");
+// console.log(result); // true
+
+
+// const array1 = ['a', 'b', 'c'];
+// const array2 = ['d', 'e', 'f'];
+// const array3 = array1.concat(array2);
+
+// console.log(array3);
+
+
+//count number of string
+//abcda =>{a:2,b:1,c:1,d:1}
+
+
+
+
+
+
