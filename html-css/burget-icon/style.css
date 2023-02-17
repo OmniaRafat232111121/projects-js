@@ -1,0 +1,52 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Cairo';
+}
+.burger-icon{
+  margin:60px auto;
+  position:relative;
+  width:50px;
+  height:40px;
+
+}
+.burger-icon span{
+  position:absolute;
+  top:0px;
+  left:0;
+  background-color: black;
+  height:2px;
+  width:100%;
+}
+
+.burger-icon span:first-child{
+  top:0px;
+
+}
+.burger-icon span:nth-child(2){
+  top:20px;
+}
+
+.burger-icon span:last-child{
+  top:40px;
+}
+.burger-icon:hover span:nth-child(2){
+  opacity: 0;
+}
+.burger-icon:hover span:first-child,
+.burger-icon:hover span:last-child{
+top:6px;
+}
+.burger-icon:hover span:first-child{
+  transform: rotate(45deg);
+
+
+}
+.burger-icon:hover span:last-child{
+  transform: rotate(-45deg);
+
+
+}
